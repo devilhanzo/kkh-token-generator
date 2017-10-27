@@ -17,7 +17,7 @@ app.listen(50451, () => {
 });
 
 // Routes
-app.use('/api/discord', require('./api/discord'));
+app.use('/api/moph', require('./api/moph'));
 
 app.use((err, req, res, next) => {
   switch (err.message) {
