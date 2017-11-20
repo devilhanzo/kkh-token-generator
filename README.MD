@@ -1,6 +1,6 @@
 
-# KKH Token Generator
->An example app for kkh oauth2 client
+# MOPH Token Generator
+>An example app for moph oauth2 client
 
 ## Run
 
