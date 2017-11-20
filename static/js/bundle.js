@@ -9621,7 +9621,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * @Author: puck.solo 
  * @Date: 2017-09-30 23:56:02 
  * @Last Modified by: puck.solo
- * @Last Modified time: 2017-10-22 15:35:15
+ * @Last Modified time: 2017-11-20 18:16:14
  */
 
 var qs = function qs(key) {
@@ -9687,7 +9687,7 @@ var App = function App() {
       'I do not save anything. ',
       _react2.default.createElement(
         'a',
-        { href: 'https://github.com/devilhanzo/kkh-token-generator' },
+        { href: 'https://github.com/devilhanzo/moph-token-generator' },
         'See sources'
       )
     )

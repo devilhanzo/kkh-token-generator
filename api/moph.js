@@ -2,7 +2,7 @@
  * @Author: puck.solo 
  * @Date: 2017-09-30 23:56:33 
  * @Last Modified by: puck.solo
- * @Last Modified time: 2017-10-27 09:46:14
+ * @Last Modified time: 2017-11-20 18:00:33
  */
 
 
@@ -20,7 +20,7 @@ const redirect = encodeURIComponent('http://localhost:50451/api/moph/callback');
 const scope = 'identify';
 
 router.get('/login', (req, res) => {
-  res.redirect(`https://auth.kkh.go.th/oauth2/authorize?client_id=${CLIENT_ID}&scope=${scope}&state=teststate&response_type=code&redirect_uri=${redirect}`);
+  res.redirect(`http://oauth.moph.go.th/oauth2/authorize?client_id=${CLIENT_ID}&scope=${scope}&state=teststate&response_type=code&redirect_uri=${redirect}`);
 });
 
 router.get('/callback', catchAsync(async (req, res) => {
@@ -30,7 +30,7 @@ router.get('/callback', catchAsync(async (req, res) => {
   const creds = btoa(`${CLIENT_ID}:${CLIENT_SECRET}`);
   const options = {
     method: 'POST',
-    url: 'https://auth.kkh.go.th/api/oauth2/token',
+    url: 'http://oauth.moph.go.th/api/oauth2/token',
     headers:
     {
       'content-type': 'application/x-www-form-urlencoded',

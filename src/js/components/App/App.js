@@ -2,7 +2,7 @@
  * @Author: puck.solo 
  * @Date: 2017-09-30 23:56:02 
  * @Last Modified by: puck.solo
- * @Last Modified time: 2017-10-22 15:35:15
+ * @Last Modified time: 2017-11-20 18:16:14
  */
 
 import React from 'react';
@@ -52,7 +52,7 @@ const App = () => (
       This website is not affiliated with <a href="https://www.moph.go.th/">MINISTRY OF PUBLIC HEALTH</a>
     </div> */}
     <div className={styles.block__footer}>
-      I do not save anything. <a href="https://github.com/devilhanzo/kkh-token-generator">See sources</a>
+      I do not save anything. <a href="https://github.com/devilhanzo/moph-token-generator">See sources</a>
     </div>
   </div>
 );
